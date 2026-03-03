@@ -1,0 +1,48 @@
+@use 'colors';
+
+/* HERO SECTION (SECTION 1)  */
+.head {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin-top: 30px;
+  padding: 60px;
+
+  .heading_info_left {
+
+    font-weight: bold;
+    max-width: 635px;
+
+
+    h4 {
+      font-size: 22px;
+      color: colors.$accent-color;
+    }
+
+    h2 {
+      font-size: 40px;
+      margin-top: 5px;
+      line-height: 1.6;
+
+      span {
+        color: colors.$accent-color;
+      }
+    }
+  }
+
+  .heading_info_right {
+    align-self: flex-end;
+    margin-left: 50px;
+    color: colors.$primary-color;
+
+    hr {
+      width: 10%;
+      /*color:#979797;*/
+    }
+
+    h5 {
+      font-style: italic;
+      font-size: 18px;
+    }
+  }
+}

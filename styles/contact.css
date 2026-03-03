@@ -1,0 +1,183 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Mulish", sans-serif;
+  color: #111111;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+/* navigation styles*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+header nav li {
+  font-size: 18px;
+  font-weight: bold;
+}
+header nav a {
+  color: #111111;
+  text-decoration: none;
+}
+header nav a:hover {
+  opacity: 0.7;
+}
+
+/* HERO SECTION (SECTION 1)  */
+.head {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin-top: 30px;
+  padding: 60px;
+}
+.head .heading_info_left {
+  font-weight: bold;
+  max-width: 635px;
+}
+.head .heading_info_left h4 {
+  font-size: 22px;
+  color: #4A4FF2;
+}
+.head .heading_info_left h2 {
+  font-size: 40px;
+  margin-top: 5px;
+  line-height: 1.6;
+}
+.head .heading_info_left h2 span {
+  color: #4A4FF2;
+}
+.head .heading_info_right {
+  align-self: flex-end;
+  margin-left: 50px;
+  color: #111111;
+}
+.head .heading_info_right hr {
+  width: 10%;
+  /*color:#979797;*/
+}
+.head .heading_info_right h5 {
+  font-style: italic;
+  font-size: 18px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+}
+footer .footer-left {
+  font-weight: 600;
+  font-size: 18px;
+}
+footer .footer-right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+footer .footer-right a {
+  text-decoration: none;
+  color: #111111;
+  font-size: 16px;
+  font-weight: bold;
+}
+footer .footer-right a:hover {
+  text-decoration: underline;
+}
+footer .footer-right i {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.container {
+  padding: 30px;
+}
+
+.contact-section1 {
+  color: #111111;
+}
+.contact-section1 .section-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+}
+.contact-section1 .left_info {
+  width: 50%;
+}
+.contact-section1 .left_info h2 {
+  max-width: 450px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.3;
+  margin-bottom: 25px;
+}
+.contact-section1 .left_info p {
+  max-width: 450px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.contact-section1 .right_info {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+.contact-section1 .form-container {
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.contact-section1 .underline-input {
+  border: none;
+  border-bottom: 2px solid #d8d8d8;
+  outline: none;
+  padding: 10px 0;
+  width: 100%;
+  font-size: 16px;
+  font-family: inherit;
+  resize: none;
+}
+.contact-section1 textarea {
+  min-height: 100px;
+}
+.contact-section1 .btn {
+  background-color: #4A4FF2;
+  color: white;
+  width: 130px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/*map styles*/
+.map {
+  width: 100%;
+  margin-top: 120px;
+}
+.map img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*# sourceMappingURL=contact.css.map */
